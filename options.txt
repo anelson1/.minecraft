@@ -89,6 +89,7 @@ key_of.key.zoom:46
 key_key.craftpresence.config_keycode.name:41
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -115,7 +116,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_keybind.baublesinventory:48
 key_key.davincis.up:45
 key_key.davincis.down:44
@@ -123,12 +123,16 @@ key_key.davincis.brake:0
 key_key.davincis.align:13
 key_key.davincis.decompile:43
 key_key.davincis.shipinv:37
+key_[GC] Galaxy Map:50
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:37
 key_keybind.hammercorerenderstack:77
 key_pe.key.armor_toggle:45
 key_pe.key.charge:47
 key_pe.key.extra_function:0
 key_pe.key.fire_projectile:19
 key_pe.key.mode:34
+key_veinminer.key.enable:41
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
