@@ -1,0 +1,41 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = based_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  path = resourcepacks/basedpack/images/splash.png
+  orientation = mid-centered
+  x = -360
+  width = 727
+  actionid = 500da087-19f1-4f04-b6f7-9c1802f1393c1626804292687
+  action = addtexture
+  y = -251
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resourcepacks\basedpack\text\splash.txt
+  rotation = -20.0
+  x = 941
+  actionid = 8c1b9c53-cd83-43d1-9405-61799df5844f1626804314133
+  action = addsplash
+  y = 183
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
