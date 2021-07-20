@@ -1,0 +1,12 @@
+/logs
+/assets
+/saves
+/webcache2
+launcher_accounts.json
+launcher_cef_log.txt
+launcher_log.txt
+launcher_msa_credentials.bin
+launcher_settings.json
+launcher_ui_state.json
+usercache.json
+usernamecache.json
