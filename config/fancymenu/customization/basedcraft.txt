@@ -1,0 +1,152 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = based_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 84
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=400322%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = 84
+  action = movebutton
+  y = 35
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 84
+  action = movebutton
+  y = 65
+}
+
+customization {
+  identifier = %id=502382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = 84
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=400298%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = 84
+  action = movebutton
+  y = 5
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resourcepacks/basedpack/images/splash.png
+  orientation = top-left
+  x = 5
+  width = 295
+  actionid = 5a808271-37e6-4d06-926d-aa100ea7dda41626798254749
+  action = addtexture
+  y = 26
+  height = 40
+}
+
+customization {
+  showname = false
+  orientation = top-left
+  crouching = false
+  x = 414
+  slim = false
+  actionid = a777f48a-71bd-43e0-8fc8-c2ff1cd35b931626798269437
+  action = addentity
+  y = 236
+  scale = 30
+  playername = Dixie Normus
+  skinurl = https://static.planetminecraft.com/files/resource_media/skin/1539/sans9425582.png
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resourcepacks\basedpack\text\splash.txt
+  rotation = -20.0
+  x = 223
+  actionid = 035bc8a0-5117-4fc4-a385-bf5b5a5f4c8c1626799096018
+  action = addsplash
+  y = 61
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
+customization {
+  path = resourcepacks/basedpack/images/pianta.png
+  orientation = top-left
+  x = -3
+  width = 82
+  actionid = 227c5636-11fc-4059-80ad-d79a66a563101626799397335
+  action = addtexture
+  y = 147
+  height = 100
+}
+
