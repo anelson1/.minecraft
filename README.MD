@@ -21,3 +21,13 @@ git clone https://github.com/anelson1/.minecraft.git
 ```
 
 And open up the minecraft launcher! Note: RAM is defaulted to 4gb.
+
+## Updating
+If the mod pack is updated, just use the commands
+```
+git stash
+```
+and
+```
+git pull
+```
