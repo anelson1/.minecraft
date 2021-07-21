@@ -1,8 +1,8 @@
-[20:16:46] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:16:46] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[20:16:46] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:16:46] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[20:16:46] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
+[21:04:37] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[21:04:37] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[21:04:38] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:04:38] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:04:38] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.7.1, built with Forge 14.23.5.2768
 Forge: 14.23.5.2855
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -19,21 +19,33 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.1, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.1, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[20:16:46] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[20:16:46] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:16:46] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[20:16:46] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[20:16:50] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[20:16:50] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[20:16:50] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[20:16:50] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:16:51] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[20:16:51] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r933.94§8ms§r
+[21:04:38] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[21:04:38] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[21:04:38] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[21:04:38] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[21:04:41] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[21:04:41] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[21:04:42] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[21:04:42] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[21:04:42] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[21:04:42] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r883.77§8ms§r
+[21:05:27] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[21:05:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[21:05:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[21:05:28] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Angelo\AppData\Roaming\.minecraft\journeymap\data\mp\Based~Craft\waypoints
+[21:05:28] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Angelo\AppData\Roaming\.minecraft\journeymap\data\mp\Based~Craft\DIM0. Memory: 4096MB total, 2078MB free 
+[21:05:28] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[21:06:07] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Angelo\AppData\Roaming\.minecraft\journeymap\data\mp\Based~Craft\DIM0
+[21:06:07] [Client thread/WARN] [FileHandler] Couldn't copy color palette html: java.lang.NullPointerException
+[21:06:07] [Client thread/ERROR] [ColorPalette] Can't write colorpalette.html: java.lang.NullPointerException
+[21:06:07] [Client thread/WARN] [ColorPalette] Existing color palette's mods no longer match current loadout.
+[21:06:07] [Client thread/INFO] [ColorPalette] WAS: Aquaculture:1.6.8, AutoRegLib:1.3-32, Baubles:1.5.2, Better Records:unspecified, Biomes O' Plenty:7.0.1.2444, Brandon's Core:2.4.19, CT-GUI:1.0.0, Clumps:3.1.2, CoFH Core:4.6.6, CoFH World:1.4.0, CodeChicken Lib:3.2.3.358, CraftPresence:1.8.2, CraftStudio API:1.0.0, CraftTweaker JEI Support:2.0.3, CraftTweaker2:4.1.20, Davinci's Vessels:@DVESSELSVER@, Dimensional Doors:3.0.9+287, Draconic Evolution:2.3.27, Expanded Equivalence:12.3.17, FancyMenu:2.2.0, Forge Mod Loader:8.0.99.99, Galacticraft Core:4.0.2.280, Galacticraft Planets:4.0.2.280, Gravestone Mod:1.10.3, Hammer Core:2.0.6.28, Ido - 1.12 movement enhancement:1.0.6, Inventory Tweaks:1.64+dev.151.822d839, Iron Chest:1.12.2-7.0.67.844, JourneyMap:1.12.2-5.7.1, Just Enough Items:4.16.1.301, Konkrete:1.1.6, LibraryEx:1.2.2, Mantle:1.12-1.3.3.55, Mekanism: Generators:1.12.2-9.8.3.390, Mekanism: Tools:1.12.2-9.8.3.390, Mekanism:1.12.2-9.8.3.390, Micdoodle8 Core:, Minecraft Coder Pack:9.42, Minecraft Forge:14.23.5.2855, Minecraft:1.12.2, Mod Support:0.38.2, Mouse Tweaks:2.10, Moving World:1.12-6.353, MovingWorld CORE:, NetherEx:2.2.5, Pam's HarvestCraft:1.12.2zb, ProjectE:1.12.2-PE1.4.1, Quark:r1.6-179, Redstone Flux:2.1.1, Shadowfacts' Forgelin:1.8.3, TekTopia:1.1.0, Thaumcraft:6.1.BETA26, Thermal Expansion:5.5.7, Thermal Foundation:2.6.7, Tinkers' Construct:1.12.2-2.13.0.183, TreeCapitator:1.43.0, Vein Miner:0.38.2, Waila:1.8.26, Waystones:4.1.0, YUNG's Better Caves:1.12.2, YUNG's Better Mineshafts:1.12.2-2.2.1, bspkrsCore:7.6.0.1, §3Dynamic Surroundings:3.6.1.0, §3OreLib Support Library:3.6.0.1
+NOW: Aquaculture:1.6.8, AutoRegLib:1.3-32, Baubles:1.5.2, Better Records:unspecified, Biomes O' Plenty:7.0.1.2444, Bookshelf:2.3.590, Brandon's Core:2.4.19, CT-GUI:1.0.0, Clumps:3.1.2, CoFH Core:4.6.6, CoFH World:1.4.0, CodeChicken Lib:3.2.3.358, CraftPresence:1.8.2, CraftStudio API:1.0.0, CraftTweaker JEI Support:2.0.3, CraftTweaker2:4.1.20, Davinci's Vessels:@DVESSELSVER@, Dimensional Doors:3.0.9+287, Draconic Evolution:2.3.27, Enchanting Plus:5.0.176, Expanded Equivalence:12.3.17, FancyMenu:2.2.0, Forge Mod Loader:8.0.99.99, Galacticraft Core:4.0.2.280, Galacticraft Planets:4.0.2.280, Gravestone Mod:1.10.3, Hammer Core:2.0.6.28, Ido - 1.12 movement enhancement:1.0.6, Inventory Tweaks:1.64+dev.151.822d839, Iron Chest:1.12.2-7.0.67.844, JourneyMap:1.12.2-5.7.1, Just Enough Items:4.16.1.301, Konkrete:1.1.6, LibraryEx:1.2.2, Mantle:1.12-1.3.3.55, Mekanism: Generators:1.12.2-9.8.3.390, Mekanism: Tools:1.12.2-9.8.3.390, Mekanism:1.12.2-9.8.3.390, Micdoodle8 Core:, Minecraft Coder Pack:9.42, Minecraft Forge:14.23.5.2855, Minecraft:1.12.2, Mod Support:0.38.2, Mouse Tweaks:2.10, Moving World:1.12-6.353, MovingWorld CORE:, NetherEx:2.2.5, Pam's HarvestCraft:1.12.2zb, ProjectE:1.12.2-PE1.4.1, Redstone Flux:2.1.1, Shadowfacts' Forgelin:1.8.3, TekTopia:1.1.0, Thaumcraft:6.1.BETA26, Thermal Expansion:5.5.7, Thermal Foundation:2.6.7, Tinkers' Construct:1.12.2-2.13.0.183, TreeCapitator:1.43.0, Vein Miner:0.38.2, Waila:1.8.26, Waystones:4.1.0, YUNG's Better Caves:1.12.2, YUNG's Better Mineshafts:1.12.2-2.2.1, bspkrsCore:7.6.0.1, §3Dynamic Surroundings:3.6.1.0, §3OreLib Support Library:3.6.0.1

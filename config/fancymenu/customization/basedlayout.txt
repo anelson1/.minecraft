@@ -16,11 +16,11 @@ customization {
 customization {
   path = resourcepacks/basedpack/images/splash.png
   orientation = mid-centered
-  x = -360
+  x = -371
   width = 727
   actionid = 500da087-19f1-4f04-b6f7-9c1802f1393c1626804292687
   action = addtexture
-  y = -251
+  y = -217
   height = 100
 }
 
@@ -34,6 +34,21 @@ customization {
   actionid = 8c1b9c53-cd83-43d1-9405-61799df5844f1626804314133
   action = addsplash
   y = 183
+  scale = 1.0
+  refresh = false
+  bouncing = true
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  splashfilepath = resourcepacks\basedpack\text\splash.txt
+  rotation = -20.0
+  x = 678
+  actionid = 605d41cd-2af7-4b90-af39-eaea699315061626833195251
+  action = addsplash
+  y = 104
   scale = 1.0
   refresh = false
   bouncing = true
