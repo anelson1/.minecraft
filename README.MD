@@ -13,7 +13,7 @@ cd AppData/Roaming
 ```
 Delete your current .minecraft folder
 ```
-del -f .minecraft
+rmdir /S .minecraft
 ```
 Clone this repo
 ```
